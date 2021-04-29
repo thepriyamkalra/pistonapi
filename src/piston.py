@@ -21,7 +21,7 @@ class PistonAPI:
 
     @property
     def runtimes(self):
-        return self._send("runtimes")
+        return { item.pop("language"): item for item in self._send("runtimes") }
 
     @property
     def languages(self):

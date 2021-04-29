@@ -5,7 +5,7 @@ with open("README.md") as f:
 
 setup(
     name="pistonapi",
-    version="1.0",
+    version="1.0.1",
     description="Unofficial Piston API Wrapper for Python",
     long_description=long_description,
     long_description_content_type="text/markdown",
